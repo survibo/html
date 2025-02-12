@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcyan;
+}
+
+#wholeBox {
+    border: 2px solid black;
+    height: 80vw;
+    width: 50vw;
+    background-color: white;
+
+}
+
+#title{
+    background-color: lightcyan;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#addListBox{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+#addList{
+    width: 50%;
+    text-align: center;
+    height: auto;
+    font-size: x-large;
+}
+
+#addListButton{
+    height: auto;
+    width: 60px;
+    background-color: aquamarine;
+    transform: translateX(10px);
+}
+
+.toDoList {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+    padding: 2px;
+}

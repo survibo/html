@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-position: inside;
+}
+
+.group-box{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.insidebox{
+    padding: 5px;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.test-a {
+    color: aquamarine;
+    background-color: chocolate;
+}
+
+.test-b {
+    color: cornsilk;
+    background-color: cadetblue;
+}
+
+.image-a {
+    display: flex;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.widthbox{
+    width: 50vw;
+    display: flex;
+    min-height: 100px;
+}
+
+.webtoonbox{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+    font-size: large;
+    background-color: white;
+}
+
+.title{
+    font-family: cursive, sans-serif;
+    background-color: black;
+    color: white;
+    width: fit-content;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="display: flex;">
+        <div>
+            <div class="insidebox">
+                <h1>This is h1 (for title)</h1>
+                <h2>This is h2 (h uses 'strong' automatically)</h2>
+                <h3>This is h3</h3>
+                <h4>This is h4</h4>
+                <h5>This is h5</h5>
+                <h6>This is h6</h6>
+            </div>
+
+            <div class="insidebox">
+                <p>This is a <strong>p</strong> tag</p>
+                <p>You can use <strong>strong</strong></p>
+                <p>You can also use '<em>em</em>'</p>
+                <p>You can also change <br> the line with <strong>br</strong></p>
+            </div>
+        
+            <div class="insidebox">
+                <ul>
+                    <li><strong>ul</strong> is a list</li>
+                    <li>You can create a list with <strong>ul</strong></li>
+                    <li>And add items using <strong>li</strong></li>
+                    <li>As you can see, it adds a small dot in front of each item</li>
+                </ul>
+                <ol>
+                    <li><strong>ol</strong> is also a list</li>
+                    <li>It also uses <strong>li</strong> to add items</li>
+                    <li>But it uses numbers instead of dots</li>
+                </ol>
+            </div>
+
+            <div class="insidebox">
+                <p>This box has a 'border'</p>
+                <p>The size adjusts automatically.</p>
+                <p>This box is set with <strong>2px solid black;</strong></p>
+            </div>
+
+            <div class="insidebox">
+                <a href="https://www.facebook.com/groups/1814092122687193">Use <strong>a href=""</strong> for hyperlinks</a><br>
+                <a href="https://www.facebook.com/groups/1814092122687193" target="_blank">You can also use <strong>target=""</strong> to set where the page will open (in this case, <strong>_blank</strong>)</a>
+                <p>If you want to use a CSS file, you can use <strong>link rel="stylesheet" href="style.css"</strong></p>
+                <p>Similarly, you can use <strong>src="javascript.js"</strong> for JavaScript files</p>
+                <p>You can also use <strong>defer</strong> to activate the JS file after the HTML is fully loaded</p>
+            </div>
+        </div>
+
+        <div style="display: flex; height: fit-content;">
+            <div>
+                <div class="image-a">
+                    <img src="https://lh3.googleusercontent.com/-ko_I4Y7s2Ho/Wn3rMIlWUtI/AAAAAAAAjI8/IdZFwQaHEHgz2Q6POJSEHSOV9j7tcEfngCHMYCw/s0/e22059c1fa50a74f618c24e7e7d8f35026932084.png" style="width: 100px; height: 100px;">
+                    <div>
+                        <p>Display an image with <strong>img src=""</strong></p>
+                        <p>Add 'alt' text to display when the image can't load</p>
+                        <p>You can use <strong>style="display: flex;"</strong> to align elements like this</p>
+                        <p>You can also use <strong>style="flex: 1;"</strong> to set the ratio</p>   
+                    </div>
+                </div>
+
+                <div style="margin: 5px; border: 2px solid black;">
+                    <div class="test-a">
+                        <p>You can use 'class' to group elements</p>
+                        <p>For example, this sentence and the one above are in the same class (test-a)</p>
+                    </div>
+                    <div class="test-b">
+                        <p>This sentence</p>
+                        <p>and this sentence are in the same class (test-b)</p>
+                    </div>
+                </div>
+                 
+                <div class="insidebox">
+                    <caption><strong>Caption</strong> is used to set the table name</caption>
+                    <table>
+                        <tr>
+                            <th>Use tr to create a row | </th>
+                            <th>Use th to create a column | </th>
+                            <th>3</th>
+                        </tr>
+                        <tr>
+                            <th>1-1</th>
+                            <th>2-1</th>
+                            <th>3-1</th>
+                        </tr>
+                        <tr>
+                            <th>1-2</th>
+                            <th>2-2</th>
+                            <th>3-2</th>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="insidebox">
+                    <p>You can style them using CSS</p>
+                    <p>With <strong>link rel="stylesheet" href="style.css"</strong></p>
+                    <p>To style a 'class', use <strong>.class-name{}</strong> in the CSS file.</p>
+                    
+                    <form>
+                        <input type="text" placeholder="This is a placeholder">
+                        <input type="password" placeholder="It shows texts before typing">
+                        <input type="date" placeholder="type = date">
+                        <select name="select">
+                            <option value="1">a</option>
+                            <option value="1">b</option>
+                            <option value="1">c</option>
+                        </select>
+                        <button type="reset">Reset</button>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
